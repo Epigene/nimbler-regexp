@@ -34,7 +34,8 @@ NimblerRegexp.apply_monkeypatch!(verbose: true)
 ```
 
 ## Discussion
-The tricky thing about Ruby regex matches is that they change the pseudo-global backreference variables `$<n>` and `$~`. This gem aims to not interfere with that, so an abvious low-hanging fruit is the `#match?` method.  
+The tricky thing about Ruby regex matches is that they change the pseudo-global backreference variables `$<n>` and `$~`.  
+This gem aims to not interfere with that, so an obvious low-hanging fruit is the `#match?` method.  
 
 ## Contributing
 
