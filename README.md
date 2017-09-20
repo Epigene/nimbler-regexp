@@ -3,9 +3,9 @@
 [![Gem Version](https://img.shields.io/github/tag/Epigene/nimbler-regexp.svg)](https://github.com/Epigene/nimbler-regexp/tags)
 [![Build Status](https://travis-ci.org/Epigene/nimbler-regexp.svg?branch=master)](https://travis-ci.org/Epigene/nimbler-regexp)
 
-Ruby Regexp monkeypatches in Nim for greater performance
+Ruby Regexp monkeypatches in Nim for greater performance.
 
-This gem replaces most-used Regexpe class ruby methods with much faster counterparts written in Nim.
+This gem replaces the `#match?` method on Regexp and String instances with much faster counterparts written in Nim.
 Use for hassle-free, dependency-free speed gains, primarily in Rails projects.
 
 ## Supported Platforms
